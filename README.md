@@ -4,7 +4,7 @@ Use this setup on Heroku (or other service) to stream your webtask logs to Paper
 
 ## Heroku setup
 
-Get setup on Heroku. Clone this repo.
+Get setup on Heroku. Get setup on Papertrail. Clone this repo.
 
 ```
 % heroku create yourapp-logs
