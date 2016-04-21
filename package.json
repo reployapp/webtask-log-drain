@@ -1,0 +1,12 @@
+{
+  "name": "webtask-log-drain",
+  "version": "1.0.0",
+  "description": "Tail your webtask logs",
+  "author": "Joshua Sierles",
+  "scripts": {
+    "start": "wt logs --token $WEBTASK_TOKEN --container $WEBTASK_CONTAINER"
+  },
+  "dependencies": {
+    "wt-cli": "^2.4.0"
+  }
+}
