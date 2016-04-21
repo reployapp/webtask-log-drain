@@ -1,6 +1,6 @@
 # Webtask log drain
 
-Use this setup on Heroku (or other service) to stream your webtask logs to Papertail (or other service). This is needed until webtask.io lets you stream logs/errors another way.
+Use this setup on Heroku (or other service) to stream your webtask.io logs to Papertail (or other service). This is needed until webtask.io lets you stream logs/errors another way.
 
 ## Heroku setup
 
