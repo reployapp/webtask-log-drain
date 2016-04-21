@@ -9,4 +9,6 @@ Get setup on Heroku. Clone this repo.
 ```
 % heroku create yourapp-logs
 % heroku drains:add syslog+tls://<host>.papertrailapp.com:<port> --app yourapp-logs
+% heroku config:set WEBTASK_TOKEN yourToken
+% heroku config:set WEBTASK_CONTAINER yourContainer
 % git push heroku master
